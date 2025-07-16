@@ -1,0 +1,23 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score{
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numbers{
+    margin: 0 50px;
+}
+
+.rollDice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

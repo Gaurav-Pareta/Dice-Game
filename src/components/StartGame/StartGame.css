@@ -1,0 +1,38 @@
+.container {
+    max-width: 1180px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playGame {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.playGame h1 {
+    font-size: 70px;
+    margin: 0px;
+}
+
+.playGame button {
+    background-color: black;
+    width: 150px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.playGame button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
